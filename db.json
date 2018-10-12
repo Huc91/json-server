@@ -1,68 +1,193 @@
 {
-    "posts": [{
-        "id": 1,
-        "title": "json-server",
-        "author": "typicode"
-    }],
-    "comments": [{
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-    }],
-    "auth": [{
-        "name": "mado",
-        "password": "a"
-    }],
-    "workitem": [{
-        "listOfItems": [{
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            },
-            {
-                "text": "prova"
-            }
-        ]
-    }]
-
+  "auth": {
+    "name": "a",
+    "password": "a"
+  },
+  "approve": {
+    "id": 1
+  },
+  "reject": {
+    "id": 3,
+    "text": ""
+  },
+  "list": [
+    {
+      "id": 1,
+      "type": "ex",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "T-001-000206",
+      "job": "R20",
+      "docs": 8
+    },
+    {
+      "id": 2,
+      "type": "tr",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "T-001-000206",
+      "job": "R40",
+      "docs": 10
+    },
+    {
+      "id": 3,
+      "type": "sda",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "117A10-SDA-00151",
+      "job": "117A30",
+      "docs": 1
+    },
+    {
+      "id": 4,
+      "type": "pr",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "T-001-000206",
+      "job": "118B10",
+      "docs": 0
+    },
+    {
+      "id": 5,
+      "type": "po",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "T-001-000206",
+      "job": "R40",
+      "docs": 2
+    },
+    {
+      "id": 6,
+      "type": "ex",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "T-001-000206",
+      "job": "R20",
+      "docs": 8
+    },
+    {
+      "id": 7,
+      "type": "tr",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "T-001-000206",
+      "job": "R40",
+      "docs": 10
+    },
+    {
+      "id": 8,
+      "type": "sda",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "117A10-SDA-00151",
+      "job": "117A30",
+      "docs": 1
+    },
+    {
+      "id": 9,
+      "type": "pr",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "T-001-000206",
+      "job": "118B10",
+      "docs": 0
+    },
+    {
+      "id": 10,
+      "type": "po",
+      "title": "PLATES FOR JACKET LEGS CANS & FOUNDATION",
+      "author": "Mario Rossi",
+      "date": "30/07/2018",
+      "docnum": "T-001-000206",
+      "job": "R40",
+      "docs": 2
+    }
+  ],
+  "detail":
+    {
+      "type": "po",
+      "title": "Refund for training mission",
+      "name": "Minghetti Simone",
+      "date": "22/01/2018",
+      "details": [
+        {
+          "name": "Document n.",
+          "value": "x-0-a-b"
+        },
+        {
+          "name": "Job",
+          "value": "R43"
+        },
+        {
+          "name": "Country",
+          "value": "Italy"
+        },
+        {
+          "name": "Site",
+          "value": "Basis"
+        },
+        {
+          "name": "City",
+          "value": "Milano"
+        },
+        {
+          "name": "Departure",
+          "value": "08/05/2018 23:00"
+        },
+        {
+          "name": "Return",
+          "value": "08/05/2018 23:00"
+        },
+        {
+          "name": "Total exmployee Expenses",
+          "value": "€ 50,00"
+        }
+      ],
+      "expenseDetails": [
+        {
+          "title": "Motorway Toll",
+          "date": "30/07/2018",
+          "payment": "€ 20,00 (Cash)",
+          "job": "R40",
+          "notes": "Lore ipsum joy sit happyness"
+        },
+        {
+          "title": "Motorway Toll",
+          "date": "30/07/2018",
+          "payment": "€ 20,00 (Cash)",
+          "job": "R40",
+          "notes": "Lore ipsum joy sit happyness"
+        },
+        {
+          "title": "Dinner",
+          "date": "30/07/2018",
+          "payment": "€ 10,00 (Cash)",
+          "job": "R40",
+          "notes": "Lore ipsum joy sit happyness"
+        }
+      ],
+      "mainDoc": {
+        "text": "Doc_AABBCCXXYY_123456_approved_220318.pdf",
+        "url": "dont/know/it/yet"
+      },
+      "secondaryDocs": [
+        {
+          "text": "Doc_AABBCCXXYY_123456_approved_220318.pdf",
+          "url": "dont/know/it/yet"
+        },
+        {
+          "text": "Doc_AABBCCXXYY_123456_approved_220318.pdf",
+          "url": "dont/know/it/yet"
+        }
+      ]
+    }
 }
